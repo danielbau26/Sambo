@@ -21,7 +21,7 @@ public class Ship {
      * @param length Longitud del barco
      * @param isVertical true si el barco est en vertical, false si esta en horizontal
      */
-    public Ship(String name, int x, int y, int length, boolean isVertical) {
+    public Ship(String name, int length, boolean isVertical) {
         this.name = name;
         this.length = length;
         this.isVertical = isVertical;
